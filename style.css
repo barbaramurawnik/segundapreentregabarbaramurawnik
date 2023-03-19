@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: Poppins;
+    overflow-x: hidden;
+}
+
+/* MENU */
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold; 
+
+}
+
+/* slider imagenes */
+
+carousel-inner {
+    max-height: 39rem;
+}
+
+/* CONTACTO */
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+ #seccion-contacto {
+    background-color: #1b2a4e;
+    min-height: 500 px;
+    position: relative;
+ }
+
+ #contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+ }
+
+ #titulo-forrmulario {
+    color: #3f3f3f;
+    
+ }
+
+/* MEDIA QUERIES */
+@media (max-width:768px) {
+    #intro, #equipo {
+        width: 90% !important;
+    }
+
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    } 
+}
+/* MEDIA QUERIES PANTALLA SM */
+
+@media(max-width:576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+/* mapa */
+.mapa {
+    background: url(imgs/mapa.png);
+    width: 100%;
+    height: 500px;
+}
+
+/* CONTACTO */
+#bg-contacto {
+    top: -110px;
+}
